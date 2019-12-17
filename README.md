@@ -19,6 +19,17 @@ Install packages with pip:
     pip install selenium
 ```
 
+## Download and install selenium browsers in linux
+
+https://selenium-python.readthedocs.io/installation.html
+
+```
+    sudo mv chromedriver /usr/local/bin
+    sudo mv geckodriver /usr/local/bin
+
+```
+
+
 Command Run:
 ```
     python tests/test_selenium.py
